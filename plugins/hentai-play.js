@@ -22,7 +22,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
    Duration: ${timestamp}
    Views: ${views}
    Upload: ${ago}
-  💝 Link: ${url}
+   Link: ${url}
 ⊱─━━━━⊱༻●༺⊰━━━━─⊰`;
 
   conn.sendMessage(m.chat, { image: { url: thumbnail }, caption: captvid, footer: author }, { quoted: m });
