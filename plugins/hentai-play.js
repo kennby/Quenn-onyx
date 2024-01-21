@@ -8,7 +8,7 @@ import os from 'os';
 const streamPipeline = promisify(pipeline);
 
 var handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw `Use example ${usedPrefix}${command} Queen Hentai Bot`;
+  if (!text) throw `Use example ${usedPrefix}${command} onyx Bot`;
   await m.react(rwait);
 
   let search = await yts(text);
