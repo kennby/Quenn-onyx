@@ -17,11 +17,11 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   let { title, thumbnail, timestamp, views, ago, url } = vid;
   let wm = '💝 onyx Downloading audio💝 please wait';
 
-  let captvid = `✼ ••๑⋯ ❀ 💝 Queen Hentai 💝 ❀ ⋯⋅๑•• ✼
-  💝 Title: ${title}
-  💝 Duration: ${timestamp}
-  💝 Views: ${views}
-  💝 Upload: ${ago}
+  let captvid = `✼ ••๑⋯ ❀ᴏɴʏx ᴘʟᴀʏ❀ ⋯⋅๑•• ✼
+   Title: ${title}
+   Duration: ${timestamp}
+   Views: ${views}
+   Upload: ${ago}
   💝 Link: ${url}
 ⊱─━━━━⊱༻●༺⊰━━━━─⊰`;
 
