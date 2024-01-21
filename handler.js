@@ -683,8 +683,8 @@ export async function participantsUpdate({ id, participants, action }) {
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/8B4jwGq.jpeg';
-                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; 
+                  pp = 'https://telegra.ph/file/35390789044f4122413b3.jpg';
+                  ppgp = 'https://telegra.ph/file/35390789044f4122413b3.jpg'; 
                 } finally {
                   let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
                     .replace('@group', await this.getName(id))
@@ -701,7 +701,7 @@ export async function participantsUpdate({ id, participants, action }) {
                   )}&memberCount=${encodeURIComponent(
                     nthMember.toString()
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-                    'https://wallpapercave.com/dwp1x/TaBiJe9.jpg'
+                    'https://telegra.ph/file/35390789044f4122413b3.jpg'
                   )}`;
           
                   try {
@@ -727,14 +727,14 @@ export async function participantsUpdate({ id, participants, action }) {
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/8B4jwGq.jpeg'; 
-                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; 
+                  pp = 'https://telegra.ph/file/35390789044f4122413b3.jpg'; 
+                  ppgp = 'https://telegra.ph/file/35390789044f4122413b3.jpg'; 
                 } finally {
-                  let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
+                  let text = (chat.sBye || this.bye || conn.bye || 'hola xd, @user')
                     .replace('@user', '@' + user.split('@')[0]);
           
                   let nthMember = groupMetadata.participants.length;
-                  let secondText = `Goodbye, our ${nthMember}th group member`;
+                  let secondText = `vete, our ${nthMember}th group member`;
           
                   let leaveApiUrl = `https://wecomeapi.onrender.com/leave-image?username=${encodeURIComponent(
                     await this.getName(user)
@@ -743,7 +743,7 @@ export async function participantsUpdate({ id, participants, action }) {
                   )}&memberCount=${encodeURIComponent(
                     nthMember.toString()
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-                    'https://wallpapercave.com/dwp1x/TaBiJe9.jpg'
+                    'https://telegra.ph/file/35390789044f4122413b3.jpg'
                   )}`;
           
                   try {
