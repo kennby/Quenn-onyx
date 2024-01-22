@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
     }
 
     if (format.contentLength / (1024 * 1024) >= limit) {
-      return m.reply(` *💝 Queen Hentai 💝 YTDL*\n\n▢ *⚖️Size*: ${format.contentLength / (1024 * 1024).toFixed(2)}MB\n▢ *🎞️Quality*: ${format.qualityLabel}\n\n▢ The file exceeds the download limit *+${limit} MB*`);
+      return m.reply(` *💝 kenn onyx 💝 YTDL*\n\n▢ *⚖️Size*: ${format.contentLength / (1024 * 1024).toFixed(2)}MB\n▢ *🎞️Quality*: ${format.qualityLabel}\n\n▢ The file exceeds the download limit *+${limit} MB*`);
     }
 
     const tmpDir = os.tmpdir();
@@ -33,7 +33,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
         m.chat,
         fs.readFileSync(fileName),
         `${info.videoDetails.videoId}.mp4`,
-        `✼ ••๑⋯❀ 💝 Queen Hentai 💝 ❀⋯⋅๑•• ✼
+        `✼ ••๑⋯❀ 💝 kenn onyx 💝 ❀⋯⋅๑•• ✼
 	  
 	  💝 Title: ${info.videoDetails.title}
 	  💝 Duration: ${info.videoDetails.lengthSeconds} seconds
