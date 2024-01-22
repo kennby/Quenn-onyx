@@ -2,7 +2,7 @@ import fg from 'api-dylux'
 
 let handler  = async (m, { conn, args, text, usedPrefix, command }) => {
 
-  if (!text) throw `💝 Queen Hentai 💝 img downloader\n\n🇱🇰 Ex: *${usedPrefix + command}* 💝 Queen Hentai 💝`
+  if (!text) throw `💝 onyx 💝 img downloader\n\n🇱🇰 Ex: *${usedPrefix + command}* 💝 onyx 💝`
 
   let res = await fg.googleImage(text)
 
@@ -21,6 +21,3 @@ handler.command = /^(img|image|gimage|imagen)$/i
 handler.diamond = false
 
 export default handler
-
-
-
